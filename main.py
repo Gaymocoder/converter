@@ -13,5 +13,5 @@ except ValueError:
     raise SystemExit(1)
 
 f = celsius_to_fahrenheit(c)
-print(f"Результат: {c} °C = {f} °F")
+print(f"Результат: {c}°C → {f}°F")
 print(f"{c} °C = {celsius_to_kelvin(c)} K")
